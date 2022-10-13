@@ -1,0 +1,22 @@
+.footerContainer {
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+    flex-direction: column;
+}
+
+.footerHeading {
+    color: white;
+    font-size: 40px;
+    color: #ff00e5;
+    font-family: "ArcadeZoo";
+}
+
+.footerCopyright {
+    color: white;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+}

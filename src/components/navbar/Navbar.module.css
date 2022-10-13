@@ -1,0 +1,145 @@
+.NavbarContainer {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #ff00e5;
+    align-items: center;
+}
+
+.NavbarLeftdiv {
+    width: 15%;
+    height: 12vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarLogoImage {
+    width: 120px;
+    height: 100px;
+}
+
+.NavbarCenterdiv {
+    width: 55%;
+    height: 12vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.NavbarCenterdivInner {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1vw;
+    color: #ff00e5;
+    font-family: "ArcadeZoo";
+}
+
+.NavbarRightdiv {
+    width: 15%;
+    height: 12vh;
+}
+
+.NavbarRightdivInner {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+}
+
+.NavbarBtn {
+    color: #ff00e5;
+    padding: 15px;
+
+    border: 1px solid #ff00e5;
+    border-radius: 10px;
+    font-family: "Azonix";
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.NavbarBtnConnected {
+    color: #ff00e5;
+    padding: 15px;
+    border: 1px solid #ff00e5;
+    border-radius: 10px;
+    font-family: "Azonix";
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 500px;
+}
+
+.NavbarHamburger {
+    display: none;
+    visibility: hidden;
+}
+
+@media (max-width: 1600px) {
+    /* .NavbarLogoImage {
+        width: 110px;
+        height: 90px;
+    }
+    .NavbarContainer {
+        height: 18vh;
+    } */
+}
+
+@media (max-width: 1400px) {
+    .NavbarContainer {
+        height: 130px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .NavbarCenterdiv {
+        display: none;
+        visibility: hidden;
+    }
+    .NavbarRightdiv {
+        display: none;
+        visibility: hidden;
+    }
+    .NavbarLeftdiv {
+        width: 20vw;
+    }
+    .NavbarHamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+        width: 15%;
+        height: 80%;
+    }
+    .NavbarContainer {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 740px) {
+    .NavbarLogoImage {
+        height: 75px;
+        width: 85px;
+    }
+    .NavbarContainer {
+        height: 100px;
+    }
+}
+
+@media (max-width: 450px) {
+    .NavbarLeftdiv {
+        margin-left: 5vw;
+    }
+    .NavbarHamburger {
+        margin-right: 5vw;
+    }
+}

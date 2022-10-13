@@ -1,0 +1,262 @@
+.centerImg {
+    width: 100%;
+    height: 85vh;
+    background-image: url("https://wallpaperaccess.com/full/5046024.jpg");
+    /* background-image: url("../src/images/clientSend.jpeg"); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerImgInner {
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.centerHeading {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 5px;
+}
+.centerHeadingtwo {
+    color: white;
+    font-size: 30px;
+}
+.centerHeadingthree {
+    color: #0f1f4f;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-family: "Azonix";
+}
+.centerHeadingfour {
+    color: #ff00e5;
+    font-size: 26px;
+    text-align: center;
+    line-height: 20px;
+    font-family: "Azonix";
+}
+.centerHeadingfive {
+    color: #0f1f4f;
+    font-size: 19px;
+    line-height: 20px;
+    font-family: "Azonix";
+}
+.centerbtnConnect {
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: #0f1f4f;
+    font-family: "Azonix";
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.centerbtnConnect:hover {
+    cursor: pointer;
+}
+.centerMintcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #0f1f4f;
+    width: 360px;
+    height: 25vh;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.centerMintHeading {
+    color: white;
+}
+.centerbtnMint {
+    color: white;
+    background-color: #ff00e5;
+    padding: 10px 30px;
+    font-family: "Azonix";
+    border-radius: 10px;
+    cursor: pointer;
+}
+.centerbtnMint:hover {
+    cursor: pointer;
+}
+.centerMintInput {
+    padding: 0px 10px;
+
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 4px;
+}
+@media (max-width: 1366px) {
+    .centerImg {
+        height: 84vh;
+    }
+}
+
+/* for iPad Landscape  */
+@media (max-width: 1024px) {
+    .centerHeading {
+        font-size: 50px;
+    }
+    .centerHeadingtwo {
+        font-size: 25px;
+    }
+    .centerHeadingthree {
+        font-size: 16px;
+    }
+    .centerHeadingfour {
+        font-size: 30px;
+    }
+    .centerHeadingfive {
+        font-size: 16px;
+    }
+    .centerbtnConnect {
+        font-size: 14px;
+    }
+    .centerMintHeading {
+        font-size: 16px;
+    }
+    .centerbtnMint {
+        padding: 9px 15px;
+    }
+    .centerMintInput {
+        height: 35px;
+    }
+    .centerMintcontainer {
+        width: 280px;
+    }
+    .centerHeadingsWrap {
+        /* border: 1px solid #0f1f4f; */
+
+        padding: 20px 4px;
+        backdrop-filter: blur(20px);
+    }
+}
+
+@media (max-width: 800px) {
+    .centerImg {
+        height: 86vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .centerHeading {
+        font-size: 60px;
+        line-height: 20px;
+    }
+    .centerHeadingtwo {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .centerHeadingthree {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .centerHeadingfour {
+        line-height: 20px;
+    }
+    .centerHeadingfive {
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .centerbtnConnect {
+        font-size: 17px;
+    }
+    .centerbtnMint {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 740px) {
+    .centerImg {
+        height: 110vh;
+    }
+    .centerImgInner {
+        height: 90%;
+    }
+    .centerMintcontainer {
+        height: 40vh;
+    }
+    .centerMintHeading {
+        font-size: 14px;
+    }
+    .centerHeading {
+        font-size: 38px;
+        line-height: 12px;
+    }
+    .centerHeadingtwo {
+        font-size: 20px;
+        line-height: 12px;
+    }
+    .centerHeadingthree {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .centerHeadingfour {
+        line-height: 15px;
+        font-size: 22px;
+    }
+    .centerHeadingfive {
+        line-height: 15px;
+        font-size: 15px;
+    }
+    .centerbtnConnect {
+        font-size: 12px;
+    }
+    .centerbtnMint {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 690px) {
+    .centerImg {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 667px) {
+    .centerImg {
+        height: 120vh;
+    }
+    .centerHeadingthree {
+        font-size: 13px;
+    }
+    .centerHeadingfour {
+        font-size: 18px;
+    }
+    .centerHeadingfive {
+        font-size: 13px;
+    }
+    .centerMintcontainer {
+        width: 220px;
+    }
+    .centerMintHeading {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 420px) {
+    .centerImg {
+        height: 85vh;
+    }
+    .centerMintcontainer {
+        height: 20vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .centerMintcontainer {
+        height: 22vh;
+    }
+}

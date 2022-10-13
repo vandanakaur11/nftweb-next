@@ -1,0 +1,101 @@
+.termsModal {
+    margin: 5vh 2vw;
+}
+
+.termsModalHeading {
+    color: #ff00e5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.termsModalSubHeading {
+    color: #ff00e5;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.termsModalPara {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+
+.termsModalBtn {
+    color: #ff00e5;
+    font-family: Azonix;
+    font-size: 18px;
+    border: 1px solid #ff00e5;
+    padding: 5px;
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.termsModalBtn:hover {
+    cursor: pointer;
+    background-color: #ff00e5;
+    color: lightgray;
+}
+
+.termsModalEndLine {
+    text-align: center;
+}
+.termsModalEndLine h2 {
+    color: #ff00e5;
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+@media (max-width: 700px) {
+    .termsModalBtn {
+        font-size: 16px;
+        width: 380px;
+    }
+}
+
+@media (max-width: 600px) {
+    .termsModalBtn {
+        font-size: 14px;
+        width: 300px;
+    }
+    .termsModalHeading {
+        font-size: 24px;
+    }
+    .termsModalSubHeading {
+        font-size: 18px !important;
+    }
+    .termsModalPara {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .termsModalBtn {
+        font-size: 13px;
+        width: 260px;
+    }
+    .termsModalHeading {
+        font-size: 20px !important;
+    }
+    .termsModalSubHeading {
+        font-size: 17px !important;
+    }
+    .termsModalPara {
+        font-size: 13px !important;
+    }
+    .termsModalEndLine h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .termsModalBtn {
+        font-size: 12px;
+        width: 240px;
+    }
+    .termsModalEndLine h2 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,70 @@
+.aboutArcadeheading {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    color: #ff00e5;
+    margin-top: 10vh;
+    /* margin-top: -35px; */
+}
+
+.aboutArcadeparagraphOne {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 18vw;
+    margin-left: 18vw;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutArcadeparagraphTwo {
+    padding-left: 20vw;
+    color: white;
+    font-family: cursive;
+    padding-right: 20vw;
+    padding-top: 5vh;
+    font-size: 26px;
+}
+
+@media (max-width: 1366px) {
+    .aboutArcadeheading {
+        font-size: 36px;
+    }
+    .aboutArcadeparagraphOne {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .aboutArcadeheading {
+        font-size: 32px;
+    }
+    .aboutArcadeparagraphOne {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutArcadeheading {
+        font-size: 24px;
+    }
+    .aboutArcadeparagraphOne {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutArcadeheading {
+        font-size: 20px;
+        padding: 0px 8%;
+    }
+    .aboutArcadeparagraphOne {
+        font-size: 14px;
+        line-height: 25px;
+        margin-right: 13%;
+        margin-left: 13%;
+    }
+}
